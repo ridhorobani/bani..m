@@ -1,0 +1,6 @@
+{
+  "name": "BANI - Cinematic Storytelling",
+  "description": "A premium interactive cinematic storytelling platform for expressing emotions through digital experiences.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

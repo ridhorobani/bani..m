@@ -1,0 +1,198 @@
+import { StoryData, ThemeConfig } from '../types';
+
+export const THEME_CONFIGS: ThemeConfig[] = [
+  {
+    id: 'night_sky',
+    name: 'Night Sky',
+    description: 'Faint stars dancing softly above a deep navy sky',
+    bgGradient: 'from-slate-950 via-indigo-950 to-black',
+    accentColor: '#818CF8',
+    glowColor: 'rgba(129, 140, 248, 0.25)',
+    particleType: 'stars',
+    fontColorClass: 'text-indigo-100',
+  },
+  {
+    id: 'galaxy',
+    name: 'Galaxy',
+    description: 'Purple and magenta cosmic dust floating in boundless space',
+    bgGradient: 'from-purple-950 via-slate-950 to-black',
+    accentColor: '#C084FC',
+    glowColor: 'rgba(192, 132, 252, 0.25)',
+    particleType: 'galaxy_dust',
+    fontColorClass: 'text-purple-100',
+  },
+  {
+    id: 'aurora',
+    name: 'Aurora',
+    description: 'Emerald and turquoise aurora light shimmering gracefully',
+    bgGradient: 'from-emerald-950 via-teal-950 to-slate-950',
+    accentColor: '#2DD4BF',
+    glowColor: 'rgba(45, 212, 191, 0.25)',
+    particleType: 'aurora_orbs',
+    fontColorClass: 'text-teal-100',
+  },
+  {
+    id: 'rain',
+    name: 'Melancholic Rain',
+    description: 'Soft raindrops gently falling across a window pane',
+    bgGradient: 'from-zinc-900 via-slate-900 to-black',
+    accentColor: '#38BDF8',
+    glowColor: 'rgba(56, 189, 248, 0.25)',
+    particleType: 'rain',
+    fontColorClass: 'text-sky-100',
+  },
+  {
+    id: 'ocean',
+    name: 'Ocean Depth',
+    description: 'Deep sea blue glow with soft floating bubbles',
+    bgGradient: 'from-cyan-950 via-slate-950 to-black',
+    accentColor: '#22D3EE',
+    glowColor: 'rgba(34, 211, 238, 0.25)',
+    particleType: 'bubbles',
+    fontColorClass: 'text-cyan-100',
+  },
+  {
+    id: 'sunset',
+    name: 'Sunset Ember',
+    description: 'Warm orange twilight glow with glowing ember sparks',
+    bgGradient: 'from-rose-950 via-stone-900 to-black',
+    accentColor: '#FB923C',
+    glowColor: 'rgba(251, 146, 60, 0.25)',
+    particleType: 'ember',
+    fontColorClass: 'text-amber-100',
+  },
+  {
+    id: 'forest',
+    name: 'Eternal Forest',
+    description: 'Lush pine trees accompanied by golden fireflies',
+    bgGradient: 'from-emerald-950 via-zinc-950 to-black',
+    accentColor: '#4ADE80',
+    glowColor: 'rgba(74, 222, 128, 0.25)',
+    particleType: 'fireflies',
+    fontColorClass: 'text-emerald-100',
+  },
+  {
+    id: 'coffee_shop',
+    name: 'Warm Coffee Shop',
+    description: 'Warm mocha aroma, dim ambient light, and coffee steam',
+    bgGradient: 'from-amber-950 via-stone-950 to-black',
+    accentColor: '#F59E0B',
+    glowColor: 'rgba(245, 158, 11, 0.25)',
+    particleType: 'coffee_steam',
+    fontColorClass: 'text-amber-100',
+  },
+  {
+    id: 'sakura',
+    name: 'Cherry Blossom',
+    description: 'Pink sakura petals falling softly under moonlight',
+    bgGradient: 'from-pink-950 via-slate-950 to-black',
+    accentColor: '#F472B6',
+    glowColor: 'rgba(244, 114, 182, 0.25)',
+    particleType: 'petals',
+    fontColorClass: 'text-pink-100',
+  },
+  {
+    id: 'minimal_white',
+    name: 'Minimal White',
+    description: 'Elegant monochrome space with clean, calm aesthetics',
+    bgGradient: 'from-zinc-950 via-neutral-900 to-black',
+    accentColor: '#E2E8F0',
+    glowColor: 'rgba(226, 232, 240, 0.2)',
+    particleType: 'minimal_dots',
+    fontColorClass: 'text-zinc-100',
+  },
+  {
+    id: 'vintage_paper',
+    name: 'Vintage Paper',
+    description: 'Nostalgic touch of antique parchment and warm memories',
+    bgGradient: 'from-yellow-950 via-stone-950 to-black',
+    accentColor: '#D97706',
+    glowColor: 'rgba(217, 119, 6, 0.2)',
+    particleType: 'paper_dust',
+    fontColorClass: 'text-amber-50',
+  },
+];
+
+export const DEFAULT_STORY: StoryData = {
+  title: 'BANI',
+  tagline: 'Beyond Words.',
+  recipientName: 'Dearest',
+  introSentence: 'There are feelings too profound for spoken words, yet resonant enough to endure for a lifetime.',
+  introParagraphs: [
+    'We journey through time by gathering quiet moments — shared gazes, unspoken promises, and laughter etched forever in memory.',
+    'This digital space is a sanctuary crafted from those memories. A realm where time slows down, allowing us to listen to what truly matters.'
+  ],
+  letterContent: `To My Dearest,
+
+If you are reading this message, it means time has brought us to a place where ordinary words are no longer enough to express everything.
+
+In a world that spins rapidly without pause, you are my anchor of calm. Every laugh we share under the night sky, every quiet sunset we enjoy together — these are the threads that weave this beautiful story.
+
+I created this special digital sanctuary just for you. A place where distance fades and every memory remains preserved, untouched by the passage of time.
+
+Thank you for walking alongside me, giving meaning to every quiet space, and being the most cherished chapter of my journey.
+
+Forever and always,
+BANI`,
+  photos: [
+    {
+      id: 'p1',
+      url: 'https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1200&q=80',
+      caption: 'Serene meeting of ocean and night sky',
+      date: 'Autumn Night',
+      location: 'North Coast',
+      rotation: -3,
+    },
+    {
+      id: 'p2',
+      url: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80',
+      caption: 'Footprints along an endless beach',
+      date: 'Summer Sunset',
+      location: 'Golden Horizon',
+      rotation: 4,
+    },
+    {
+      id: 'p3',
+      url: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1200&q=80',
+      caption: 'Counting distant stars in the silence',
+      date: 'Midnight',
+      location: 'Mountain Peak',
+      rotation: -2,
+    },
+    {
+      id: 'p4',
+      url: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1200&q=80',
+      caption: 'Gentle mist greeting dawn in the pine forest',
+      date: 'Rising Dawn',
+      location: 'Silent Forest',
+      rotation: 3,
+    },
+    {
+      id: 'p5',
+      url: 'https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=80',
+      caption: 'City lights glowing like sweet memories',
+      date: 'Night Journey',
+      location: 'City Center',
+      rotation: -4,
+    },
+    {
+      id: 'p6',
+      url: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80',
+      caption: 'Beautiful reflections over crystal lake waters',
+      date: 'Spring Morning',
+      location: 'Emerald Lake',
+      rotation: 2,
+    },
+  ],
+  secret: {
+    isPasswordProtected: true,
+    password: '1204',
+    hiddenMessage: 'Congratulations! You have unlocked this secret vault. Behind every detail of this creation lies a simple truth: you are my most beautiful thought every morning and my deepest peace every night.',
+    hiddenImageUrl: 'https://images.unsplash.com/photo-1518173946687-a4c8a383392e?auto=format&fit=crop&w=1200&q=80',
+    hiddenVideoUrl: 'https://assets.mixkit.co/videos/preview/mixkit-starry-sky-and-aurora-borealis-4011-large.mp4',
+    hiddenAudioUrl: 'https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3?filename=ambient-piano-10781.mp3',
+    unlockedHint: 'Secret password is "1204"'
+  },
+  endingMessage: 'Thank you for being the most beautiful part of this story.',
+  defaultTheme: 'aurora',
+};
